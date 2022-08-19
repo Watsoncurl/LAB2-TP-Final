@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1660917957 source:c:\users\watson\script\utn\lab2 - brianlara\tp final\main.cpp
+1660930794 source:c:\users\watson\script\utn\lab2 - brianlara\tp final\main.cpp
 	<SFML/Graphics.hpp>
+	"Tanque.h"
 
 1525812018 c:\users\watson\script\utn\lab2 - brianlara\tp final\sfml-2.5.1\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -410,4 +411,20 @@
 	<SFML/Graphics/PrimitiveType.hpp>
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
+
+1660931340 c:\users\watson\script\utn\lab2 - brianlara\tp final\include\tanque.h
+	<SFML/Graphics.hpp>
+
+1660934789 source:c:\users\watson\script\utn\lab2 - brianlara\tp final\src\tanque.cpp
+	"Tanque.h"
+
+1660930794 source:c:\users\watson\script\utn\lab2 - brianlara\tp final (github)\lab2-tp-final\main.cpp
+	<SFML/Graphics.hpp>
+	"Tanque.h"
+
+1660931340 c:\users\watson\script\utn\lab2 - brianlara\tp final (github)\lab2-tp-final\include\tanque.h
+	<SFML/Graphics.hpp>
+
+1660934789 source:c:\users\watson\script\utn\lab2 - brianlara\tp final (github)\lab2-tp-final\src\tanque.cpp
+	"Tanque.h"
 

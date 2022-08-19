@@ -1,10 +1,13 @@
 #include <SFML/Graphics.hpp>
 
+#include "Tanque.h"
+
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML works!");
+    window.setFramerateLimit(60);
+
+    Tanque player;
 
     while (window.isOpen())
     {
@@ -15,8 +18,18 @@ int main()
                 window.close();
         }
 
+//        INPUT
+
+//        LOGIC
+
+//        UPDATE
+        player.update();
+
+//        RENDER
         window.clear();
-        window.draw(shape);
+
+        window.draw(player);
+
         window.display();
     }
 
